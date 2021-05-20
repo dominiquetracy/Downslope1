@@ -406,7 +406,6 @@ ul {
   color: #878787;
 }
 
-
 /* Scroll to top   */
 #myBtn {
   display: none;
@@ -426,4 +425,89 @@ ul {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+/* XS    */
+@media only screen and (max-width:320px) {
+  nav {
+    margin: 0px;
+  }
+  .banner-1 {
+    background-position: left 30% bottom 80%;
+  }
+  .banner-1-img-atv {
+    background-position: left 68% bottom 10%;
+  }
+  .banner-1-img-db {
+    background-position: left 20% bottom 60%;
+  }
+  .banner-1-img-scooter {
+    background-position: left 68% bottom 60%;
+  }
+  .banner {
+    background-position: left 60% bottom 60%;
+  }
+}
+
+
+/* SM   */
+@media only screen and (min-width:320px) and (max-width:550px) {
+  .banner-1 {
+    background-position: left 30% bottom 80%;
+  }
+  .banner-1-img-atv {
+    background-position: left 68% bottom 10%;
+  }
+  .banner-1-img-db {
+    background-position: left 20% bottom 60%;
+  }
+  .banner-1-img-scooter {
+    background-position: left 68% bottom 60%;
+  }
+  .banner {
+    background-position: left 60% bottom 60%;
+  }
+}
+
+
+/* MD   */
+@media only screen and (min-width:551px) and (max-width:767px) {
+  .banner-1 {
+    background-position: left 30% bottom 80%;
+  }
+  .banner-1-img-atv {
+    background-position: left 68% bottom 10%;
+  }
+  .banner-1-img-db {
+    background-position: left 20% bottom 60%;
+  }
+  .banner-1-img-scooter {
+    background-position: left 68% bottom 60%;
+  }
+  .banner {
+    background-position: left 60% bottom 60%;
+  }
+}
+
+
+/* LG   */
+@media only screen and (min-width:768px) and (max-width:1023px) {
+  .banner-1 {
+    background-position: left 30% bottom 80%;
+  }
+}
+
+
+/* XL */
+@media only screen and (min-width:1024px) {
+
 }
